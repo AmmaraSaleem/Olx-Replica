@@ -1,0 +1,401 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+/* Header*/
+.navbar_shadow{
+   height: 40px;
+  box-shadow:  0px 5px 4px  gainsboro;
+ 
+  
+ 
+}
+
+ 
+
+
+.logo{
+  width: 70px;
+  height: 50px;
+  margin-top: 20px;
+  float: left;
+}
+
+
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: black;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+ 
+}
+
+/* Style the input fields */
+.input-field  {
+  width: 70%;
+  padding: 10px;
+  outline: none;
+  border:  2px solid black;
+  margin-left: 20px;
+  font-size: 20px;
+  
+}
+.ui {
+  font-size: 20px;
+  height: 54px;
+  width: 20%;
+  border: 2px solid black;
+
+}
+.input-field:focus {
+  border: 2px solid aqua;
+ 
+
+}
+
+.input-field-location{
+  margin-left: 20px;
+  width: 200px;
+ 
+
+}
+
+.form-control{
+  outline: none;
+   
+}
+
+.login{
+  margin-left: 20px;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: black;
+  font-size: 20px;
+}
+
+/*end*/
+
+
+.text{
+  font-size: 15px;
+  margin: 5px;
+}
+
+
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 80%;
+  height: 54px;
+  
+ 
+  
+}
+.slider{
+  width: 100%;
+}
+
+
+.Fresh_recommendations{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 60px;
+  margin-left: 120px;
+  }
+
+
+.card-img-top{
+  padding: 20px;
+  height: 200px;
+ 
+}
+
+.heart_icon{
+  margin-left: 90%;
+}
+
+
+
+
+
+.footer_image{
+
+ width: 100%;
+ background-color: whitesmoke;
+
+}
+
+
+.footer-copyright{
+  background-color:rgba(6, 54, 50, 0.973);
+}
+li{
+  font-size: 12px;
+}
+
+.big-footer{
+  background-color: rgba(235, 243, 250, 0.952);
+  width: 100%;
+  
+}
+
+.footer-text{
+  float: right;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width:600px)
+{
+   .footer_image{
+     width: 100%;
+    
+    
+  }
+}
+
+
+.Mobilephone_card{
+  width: 100%;
+}
+
+
+.sidenav {
+  
+  
+ 
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: black;
+  outline: none;
+}
+
+
+
+/* Add an active class to the active dropdown button */
+.active {
+ color: grey;
+}
+.vertical_line{
+
+  border-left: 2px solid gray;
+  height: 150px;
+   position: absolute;
+   top: 20px;
+ 
+
+
+}
+.dropdown-item{
+  font-size: 15px;
+}
+
+
+
+
+.auth{
+  border: 2px solid black;
+  text-align: center;
+
+ padding: 10;
+ font-size: 20px;
+}
+/*Modal inner work*/
+.Dialog_inner_box{
+  border: 1px solid black;
+  height: 150px;
+  margin-top: 30px;
+  width: 450px;
+  margin-left: 30px;
+
+}
+.Dialog_inner_box2{
+  border: 1px solid black;
+  height: 220px;
+  margin-top: 30px;
+  width: 450px;
+  margin-left: 30px;
+
+}
+.jj{
+  color: black;
+}
+
+.discription p{
+  margin: 20px;
+}
+.dis_heading{
+  margin-left:30px ;
+}
+.mapFawadcar{
+  width: 450px;
+  padding: 10px;
+  height: 120px;
+}
+.chat_with_seller{
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgb(6, 59, 6);
+  color: wheat;
+ font-weight: 600;
+}
+.viewMore_Cards{
+  background-color: rgba(191, 198, 204, 0.767);
+  padding: 20px;
+
+  margin-top: 30px;
+}
+.App{
+ 
+ font-size: 20px;
+ margin: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ 
+
+}
+.read-more-link{
+  color: black;
+ border:  1px solid black;
+ padding: 10px;
+  cursor: pointer;
+  
+  
+}
+
+.ViewMoreCardHeading{
+  color: rgb(22, 83, 35);
+  font-size: 30px;
+  margin-left: 20px;
+}
+.mobilephone_popup_link
+{
+  margin-top: 50px;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 40x;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  
+  background-color: rgb(22, 83, 35);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
