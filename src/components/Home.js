@@ -13,6 +13,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import { connect } from 'react-redux'
+import facebook_login from '../../src/store/action'
+import Long_search from '../components/Rw'
+
+
 
 
 
@@ -72,62 +77,50 @@ function Textfield() {
     </select>
   );
 }
-
-class Long_search extends Component {
-
+// class Redux extends Component {
 
 
 
-  render() {
+
+//   render() {
 
 
-    return (
 
-      <div class="input-container">
+//     return (
 
-        <input class="  input-field" type="text" placeholder="Find Cars, Mobile Phone andMore" name="usrnm" id="val" />
-        <i class=" icon">  <SearchIcon /></i>
-        <a href="" className="login"  >Login</a>
+//       <div>
 
-
-        <img data-toggle="modal" data-target="#myModal" src={SELLIMAGES} className="ml-4" alt="" />
+//         <button onClick={() => this.props.facebook_login(this.props.history)}>Facebook login </button>
+//       </div>
 
 
 
 
 
 
+//     )
+//   }
 
-        <div class="modal fade" id="myModal" role="dialog">
-          <div class="modal-dialog">
+// }
+// class Long_search extends Component {
 
 
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">X</button>
 
-              </div>
-              <div class="modal-body">
-                <div style={{ marginTop: "200px" }}>
-                  <div className="auth"><p>Continue with phone</p></div>
-                  <br />
 
-                  <div className="auth">    
-                  </div>
-                  <br />
-                  <div className="auth"><p>Continue with google</p></div>
-                  <br />
-                  <div className="auth"><p>Continue with google</p></div>
-                </div>
+//   render() {
 
-              </div>
+//     console.log('props=>', this.props)
+//     return (
 
-            </div>
+//       <div class="input-container">
 
-          </div>
-        </div>
 
-      </div >
+//         <input class="  input-field" type="text" placeholder="Find Cars, Mobile Phone andMore" name="usrnm" id="val" />
+//         <i class=" icon">  <SearchIcon /></i>
+//         <a href="" className="login"  >Login</a>
+
+
+//         <img data-toggle="modal" data-target="#myModal" src={SELLIMAGES} className="ml-4" alt="" />
 
 
 
@@ -135,10 +128,46 @@ class Long_search extends Component {
 
 
 
-    )
-  }
+//         <div class="modal fade" id="myModal" role="dialog">
+//           <div class="modal-dialog">
 
-}
+
+//             <div class="modal-content">
+//               <div class="modal-header">
+//                 <button type="button" class="close" data-dismiss="modal">X</button>
+
+//               </div>
+//               <div class="modal-body">
+//                 <div style={{ marginTop: "200px" }}>
+//                   <div className="auth"><p>Continue with phone</p></div>
+//                   <br />
+//                   <Redux />
+
+//                   <br />
+//                   <div className="auth"><p>Continue with google</p></div>
+//                   <br />
+//                   <div className="auth"><p>Continue with google</p></div>
+//                 </div>
+
+//               </div>
+
+//             </div>
+
+//           </div>
+//         </div>
+
+//       </div >
+
+
+
+
+
+
+
+//     )
+//   }
+
+// }
 
 class Navbar extends Component {
 
@@ -553,13 +582,21 @@ class Footer extends Component {
 }
 
 
-
 export {
-
   Header,
   Slider,
   Navbar,
-
   Banner,
   Footer
-};
+}
+
+// const mapStateToProps = (state) => ({
+//   users: state.users
+// })
+// const mapDispatchToProps = (dispatch) => ({
+//   // set_data:()=>dispatch(set_data()),
+//   facebook_login: (history) => dispatch(facebook_login(history)),
+
+// })
+// export default connect(mapStateToProps, mapDispatchToProps)(Header)
+
